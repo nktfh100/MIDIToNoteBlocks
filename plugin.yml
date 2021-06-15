@@ -1,0 +1,8 @@
+name: MIDIToNoteBlocks
+main: com.nktfh100.MIDIToNoteBlocks.main.MIDIToNoteBlocks
+author: nktfh100
+version: 1.0
+api-version: 1.16
+commands:
+   midi:
+      description: Main command

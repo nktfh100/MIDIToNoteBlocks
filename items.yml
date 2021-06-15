@@ -1,0 +1,44 @@
+
+
+items:
+   select-midi_midi-file: 
+      # %value% File name
+      # %value1% Total tracks
+      mat: PAPER
+      title: "&a%value%"
+      lore:
+         - "&eTracks: %value1%"
+   select-midi_current-page: 
+      # %value% Current page
+      # %value1% Total pages
+      mat: BOOK
+      title: "&aCurrent page: %value%"
+   select-midi_next-page: 
+      # %value% Current page
+      # %value1% Total pages
+      mat: PAPER
+      title: "&aNext page"
+      lore:
+         - "&aCurrent page: %value%"
+   select-midi_previous-page: 
+      # %value% Current page
+      # %value1% Total pages
+      mat: PAPER
+      title: "&aPrevious page"
+      lore:
+         - "&aCurrent page: %value%"
+   select-tempo_tempo:
+      # %value% Midi file name
+      # %value1% Current tempo
+      mat: BOOK
+      title: "&a%value%"
+      lore:
+         - "&eTempo: %value1%"
+         - "&eRight click to add one"
+         - "&eLeft click to remove one"
+   select-tempo_accept:
+      mat: GREEN_CONCRETE
+      title: "&aDone"
+   select-tempo_back:
+      mat: RED_CONCRETE
+      title: "&cBack"
